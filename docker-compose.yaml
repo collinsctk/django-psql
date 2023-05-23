@@ -3,7 +3,7 @@ services:
   qyt-psql:
     environment:
       - POSTGRES_PASSWORD=Cisc0123
-    image: "postgres:11.18-alpine"
+    image: "postgres:12.15"
     ports:
       - "5432:5432"
     volumes:
